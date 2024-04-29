@@ -1,0 +1,1 @@
+When running 'detect_dual.py' in the yolov9 code, if 'augment' is set to 'Ture', the error 'TypeError: list indices must be integers or slices, not tuple' is displayed. The code 'yolov9/models/ yol.py ' can run properly after modification like this.
